@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resources PUBLIC "-//GlassFish.org//DTD GlassFish Application Server 3.1 Resource Definitions//EN"
+        "http://glassfish.org/dtds/glassfish-resources_1_5.dtd">
+<resources>
+    <jdbc-connection-pool name="pool/shiro-primefaces"
+                          datasource-classname="org.postgresql.ds.PGConnectionPoolDataSource"
+                          res-type="javax.sql.ConnectionPoolDataSource"
+                          steady-pool-size="5"
+                          pool-resize-quantity="1"
+                          max-pool-size="10">
+        <property name="serverName" value="localhost"/>
+        <property name="PortNumber" value="5432"/>
+        <property name="DatabaseName" value="shiro_primefaces"/>
+        <property name="User" value="shiro_primefaces"/>
+        <property name="Password" value="testpass"/>
+    </jdbc-connection-pool>
+    <jdbc-resource pool-name="pool/shiro-primefaces" jndi-name="jdbc/shiro-primefaces"/>
+</resources>

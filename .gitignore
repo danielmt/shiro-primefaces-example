@@ -1,0 +1,12 @@
+\.orig$
+\.orig\..*$
+\.chg\..*$
+\.rej$
+\.conflict\~$
+target
+overlays
+.idea
+gfembed*
+nb-configuration.xml
+.DS_Store
+*.iml
