@@ -33,7 +33,7 @@
     </context-param>
 
     <welcome-file-list>
-        <welcome-file>index.jsf</welcome-file>
+        <welcome-file>index.xhtml</welcome-file>
     </welcome-file-list>
 
     <session-config>
@@ -74,6 +74,6 @@
 
     <servlet-mapping>
         <servlet-name>Faces Servlet</servlet-name>
-        <url-pattern>*.jsf</url-pattern>
+        <url-pattern>*.xhtml</url-pattern>
     </servlet-mapping>
 </web-app>
