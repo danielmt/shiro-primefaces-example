@@ -45,6 +45,7 @@
         <res-ref-name>jdbc/shiro-primefaces</res-ref-name>
         <res-type>javax.sql.ConnectionPoolDataSource</res-type>
         <res-auth>Container</res-auth>
+        <lookup-name>java:app/jdbc/shiro-primefaces</lookup-name>
     </resource-ref>
 
     <!-- Apache Shiro -->

@@ -14,5 +14,5 @@
         <property name="User" value="shiro_primefaces"/>
         <property name="Password" value="testpass"/>
     </jdbc-connection-pool>
-    <jdbc-resource pool-name="pool/shiro-primefaces" jndi-name="jdbc/shiro-primefaces"/>
+    <jdbc-resource pool-name="pool/shiro-primefaces" jndi-name="java:app/jdbc/shiro-primefaces"/>
 </resources>

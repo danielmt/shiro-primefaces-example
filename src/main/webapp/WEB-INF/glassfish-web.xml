@@ -5,7 +5,7 @@
     <context-root>/shiro-primefaces-example</context-root>
     <resource-ref>
         <res-ref-name>jdbc/shiro-primefaces</res-ref-name>
-        <jndi-name>jdbc/shiro-primefaces</jndi-name>
+        <jndi-name>java:app/jdbc/shiro-primefaces</jndi-name>
     </resource-ref>
     <class-loader delegate="false"/>
     <parameter-encoding default-charset="UTF-8"/>
