@@ -4,6 +4,7 @@
  */
 package org.example.shiro.bean.security;
 
+import java.io.File;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.subject.Subject;
@@ -28,6 +29,7 @@ public class ShiroLoginBean implements Serializable {
     private Boolean rememberMe;
 
     public ShiroLoginBean() {
+        System.out.println(">>>>>"+new File(".").getAbsolutePath());
     }
 
     /**
