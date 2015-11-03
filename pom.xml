@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>shiro-primefaces-example22222</artifactId>
+    <artifactId>shiro-primefaces-example</artifactId>
     <packaging>war</packaging>
     <name>${project.artifactId}</name>
     <description>Shiro + PrimeFaces Example</description>

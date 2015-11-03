@@ -14,7 +14,8 @@
     role user = <h:outputText value="#{indexBean.subject.hasRole('user')}"/>
     role admin = <h:outputText value="#{indexBean.subject.hasRole('admin')}"/>
     </pre>
-
-    <p:editor value="&lt;b&gt;primefaces"/>
+    
+    <p:editor value="&lt;b&gt;primefaces" rendered="#{facesContext.externalContext.isUserInRole('user')}"/>
+    
 </h:body>
 </html>
