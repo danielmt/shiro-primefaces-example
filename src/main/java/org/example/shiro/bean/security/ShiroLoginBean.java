@@ -29,7 +29,7 @@ public class ShiroLoginBean implements Serializable {
     private Boolean rememberMe;
 
     public ShiroLoginBean() {
-        System.out.println(">>>>>"+new File(".").getAbsolutePath());
+        
     }
 
     /**
