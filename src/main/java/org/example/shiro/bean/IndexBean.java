@@ -10,13 +10,16 @@ import org.apache.shiro.subject.Subject;
 import javax.faces.bean.ViewScoped;
 import javax.inject.Named;
 import java.io.Serializable;
+import javax.faces.bean.ManagedBean;
 
-@Named
+@ManagedBean(name = "indexBean")
 @ViewScoped
 public class IndexBean implements Serializable {
-    private Subject subject = SecurityUtils.getSubject();
+  
 
     public Subject getSubject() {
-        return subject;
+        return SecurityUtils.getSubject();
     }
+
+    
 }

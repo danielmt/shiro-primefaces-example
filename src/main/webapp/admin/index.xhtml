@@ -7,13 +7,15 @@
     <h1>admin</h1>
     <h:outputLink value="../logout">logout</h:outputLink>
     <pre>
+     sss:   <p:outputLabel value="#{indexBean.subject}"></p:outputLabel>
     subject = <h:outputText value="#{indexBean.subject}"/>
     principal = <h:outputText value="#{indexBean.subject.principal}"/>
     session = <h:outputText value="#{indexBean.subject.session}"/>
     role user = <h:outputText value="#{indexBean.subject.hasRole('user')}"/>
     role admin = <h:outputText value="#{indexBean.subject.hasRole('admin')}"/>
     </pre>
-
+    
     <p:editor value="&lt;b&gt;primefaces"/>
+    
 </h:body>
 </html>
