@@ -4,7 +4,7 @@
 <h:head>
 </h:head>
 <h:body>
-    <h1>admin asdasdasdas</h1>
+    <h1>admin</h1>
     <h:outputLink value="../logout">logout</h:outputLink>
     <pre>
      sss:   <p:outputLabel value="#{indexBean.subject}"></p:outputLabel>
@@ -15,7 +15,7 @@
     role admin = <h:outputText value="#{indexBean.subject.hasRole('admin')}"/>
     </pre>
     
-    <p:editor value="&lt;b&gt;primefaces" rendered="#{facesContext.externalContext.isUserInRole('user')}"/>
+    <p:editor value="&lt;b&gt;primefaces"/>
     
 </h:body>
 </html>
